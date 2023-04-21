@@ -1,0 +1,112 @@
+<!-- This is the basic html structure. It is the skeleton of the html page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Used to set the width of the page to follow the screen-width of the device. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Used to set the width of the page to follow the screen-width of the device. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title of the page. -->
+    <title>Simple <Form></Form></title>
+    <!-- Linking the css file to the html file. -->
+    <link rel="stylesheet" href="day2.css">
+</head>
+<body>
+
+   <!-- This is a div tag that is used to group elements together. It is used to group the header, h2 and
+   p tags together. -->
+    <div>
+        <header class="heading">
+            DAY 2
+        </header>
+
+        <h2 class="objectives">
+            Objective: <br> 
+        </h2>
+
+        <p class="obj">
+          <!-- A list of objectives. -->
+          <li class="obj">This is a simple survey form. </li>
+          <li class="obj">In this site i am making a simple survey form. </li>
+          <li class="obj">This form will use all the form tags  </li>
+          <li class="obj"> There is minimal css involved just the use of font properties (size, style, weight, colour)  </li>   
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- This is a div tag that is used to group elements together. It is used to group the h1 tag
+    together. -->
+    <div>
+       <!-- This is a heading tag. It is used to display a heading. The class is used to style the
+       heading. -->
+        <h1 class="major-Text">
+           Survey Form
+        </h1>
+           
+    </div>
+        
+    <div class="form-outline">
+        <form action="">
+
+            <div class="form-body">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="please enter your name">
+                           
+            </div>
+
+            <div class="form-body">
+                <label for="Age">Age</label>
+                <input type="number" id="Age" placeholder="please enter your Age">
+                           
+            </div>
+
+            <div class="form-body">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="please enter your Email">
+                           
+            </div>
+
+            <div class="form-body">
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" placeholder="please enter your Age">
+                           
+            </div>
+
+            <div class="form-body">
+                <p>What Gender do you identify by?</p>
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" value="Male"> <br>
+
+                <label for="gender">Female</label>
+                <input type="radio" id="gender" value="Female"> <br>
+
+                <label for="gender">Prefer not to say</label>
+                <input type="radio" id="gender" value="Prefer not to say">
+                           
+            </div>
+            <br>
+            <div class="form-body">
+                <label for="cars">Whats your favourite brand of car</label>
+                <select name="cars" id="cars">
+                    <option value=""></option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Toyota">Toyota </option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Other">Other</option>
+                </select>
+
+            </div>
+            
+        </form>
+
+    </div>
+    
+   
+</body>
+</html>

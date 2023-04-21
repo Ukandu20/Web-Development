@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(238, 238, 236);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    color: #000;
+}
+.heading {
+    
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.objectives{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal ;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+ .image {
+
+    height: 10%;
+    width: 10%;
+    position: relative;
+
+ }
+.obj {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic ;
+    color: #000;
+    font-weight: normal;
+    font-size: 13px;
+}
+.major-Text {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-outline {
+    background-color: aquamarine;
+    width: 30%;
+    justify-content: center;
+    border: 10px;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #000;
+    margin-left: 35%;
+    
+}
+
+.form-body {
+    padding: 10px;
+}
